@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to the .env file
-ENV_PATH="src/.env"
+ENV_PATH="src/template.env"
 
 # Load variables from .env file
 if [ -f $ENV_PATH ]; then
