@@ -7,7 +7,7 @@ draft
 instance/*
 !instance/.gitignore
 .webassets-cache
-.env
+#.env
 **/.env
 
 ### Flask.Python Stack ###

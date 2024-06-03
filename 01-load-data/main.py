@@ -223,7 +223,7 @@ def add_document_to_vector_store(vector_store, file_path, data_classification, t
         doc.metadata["data_classification"] = data_classification
         doc.metadata["title"] = title
         doc.metadata["source"] = source
-    vector_store.add_documents(documents=docs)
+    vector_store.add_documents(documents=split_docs)
     # print("Add document '{title}' to vector store")
 
 
