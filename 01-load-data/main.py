@@ -251,3 +251,12 @@ if __name__ == "__main__":
             source=f"https://{account_name}.blob.core.windows.net/{data_classification}/{blob.name}"
         )
         # move_blob(account_name, container_name, data_classification, blob.name, credential)
+
+# STORAGE_ACCOUNT_NAME="stgk4zxl3hj1zk5lk4"
+# STORAGE_CONTAINER_NAME_IN="data-in"
+# AZURE_OPENAI_API_VERSION="2023-12-01-preview"
+# AZURE_OPENAI_ENDPOINT="https://black-oai.openai.azure.com/"
+# AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="gpt4"
+# AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT="text-embedding-3-large"
+# AZURE_AI_SEARCH_ENDPOINT="https://black-ais.search.windows.net"
+# INDEX_NAME="langchain-vector-demo-custom"
